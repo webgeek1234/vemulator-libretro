@@ -1,19 +1,6 @@
 /*
-    VeMUlator - A Dreamcast Visual Memory Unit emulator for libretro
-    Copyright (C) 2018  Mahmoud Jaoune
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+	VeMUlator project (Originally developed by MJaoune <mjaoune55@gmail.com>) and any files affiliated with it come with ABSOLUTELY NO WARRANTY under any circumstances; use at your own risk.
+	Though it would be really appreciated if my name gets credited as "original developer" in case of redistribution.
 */
 
 #ifndef _INTERRUPTS_H_
