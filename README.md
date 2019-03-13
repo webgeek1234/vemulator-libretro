@@ -1,7 +1,7 @@
 VeMUlator
 =========
 
-This is a port of the Android SEGA Dreamcast VMU emulator "VeMUlator" for libretro, it was translated from Java to C++ and then implemented the libretro.h callbacks.
+This is a port of the Android SEGA Dreamcast VMU emulator "VeMUlator" for the libretro platform.
 
 ## Known issues:
 * Timer problems (Mainly T0, due to lack of documentation of the VMU.)
