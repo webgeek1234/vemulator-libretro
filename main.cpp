@@ -232,15 +232,18 @@ RETRO_API void retro_run(void)
 
 RETRO_API size_t retro_serialize_size(void)
 {
+	return 0;
 }
 
 
 RETRO_API bool retro_serialize(void *data, size_t size)
 {
+	return false;
 }
 
 RETRO_API bool retro_unserialize(const void *data, size_t size)
 {
+	return false;
 }
 
 RETRO_API void retro_cheat_reset(void)
@@ -310,12 +313,21 @@ RETRO_API void retro_unload_game(void)
 
 RETRO_API unsigned retro_get_region(void)
 {
+	return 0;
 }
 
 RETRO_API void *retro_get_memory_data(unsigned id)
 {
+	if (id == RETRO_MEMORY_SYSTEM_RAM)
+		return vmu->ram->getData();
+	else
+		return NULL;
 }
 
 RETRO_API size_t retro_get_memory_size(unsigned id)
 {
+	if (id == RETRO_MEMORY_SYSTEM_RAM)
+		return 1024;
+	else
+		return 0;
 }
