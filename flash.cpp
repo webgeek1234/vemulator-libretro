@@ -209,6 +209,8 @@ size_t VE_VMS_FLASH::getROM(byte *out)
 		// for(int j = 0; j < 512; j++)
 		out[(0x1FE00) + j] = rootBlock[j];  //0x1FE00 being 255 x 512
 	}
+
+	return 0;
 }
 
 ///Returns data
